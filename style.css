@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+*{
+  padding: 10px;
+  font-family: "Overpass";
+  box-sizing: border-box;
+  
+}
+
+
+body{background-color: hsl(216, 12%, 8%);}
+
+
+.hide{
+  display: none;
+}
+  .num:hover{
+background-color: hsl(25, 97%, 53%) ;
+border-color:hsl(25, 97%, 53%) ;
+
+}
+.num:focus{
+  background-color: hsl(217, 12%, 63%);
+  border-color:hsl(217, 12%, 63%);
+}
+ input:focus{
+  color:hsl(25, 97%, 53%) ;
+  background-color:white ;
+  border-color: white;
+}
+
+.star-icon
+{opacity: 0.8;
+}
+.star-icon img{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 100%;
+
+  border: 1px hsl(213, 20%, 22%) solid;
+  
+  background-color:hsl(213, 20%, 22%);
+}
+
+
+.rating{
+
+opacity: 0.8;
+width: 100px;
+height: 300px;
+text-align: justify;
+margin-right: auto;
+margin-left: auto;
+position: relative;
+border-radius: 15px;
+border: 2px hsl(213, 19%, 18%)solid; 
+background-color: hsl(213, 19%, 18%) ;
+margin-top: 10%;
+}
+
+
+  .rating .intro{
+  font-size: 2em;
+  position: absolute;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  top: 40px;
+  
+}
+
+.rating  .text{
+  position: absolute;
+  top: 70px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+}
+
+ul{ 
+  margin-right: auto;
+  margin-left: auto;
+ text-align: center; 
+display:flex;
+position: absolute;
+top: 30%;
+left: 20%;
+right: 10%;
+list-style: none;
+padding: 5px;  
+padding-left: 30px;
+position: relative;
+vertical-align: bottom;
+}
+ li .num{
+  right: 10%;
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  padding: 5px;
+  border: 2px hsl(213, 20%, 22%)  solid;
+  background-color:hsl(213, 20%, 22%);
+  vertical-align: middle;
+  color: hsl(0, 0%, 100%);
+
+}
+
+input{
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  border-radius: 15px;
+  background-color: hsl(25, 97%, 53%);
+  border:1px hsl(25, 97%, 53%) solid;
+  width: 80%;
+  bottom: 40%;
+  right: 10%;
+}
+.message{
+  width: 100px;
+  height: 400px;
+  text-align: justify;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  border-radius: 15px;
+  border: 2px hsl(213, 19%, 18%)solid; 
+  background-color: hsl(213, 19%, 18%) ;
+  margin-top: 10%;
+}
+
+.pic{
+position: absolute;
+left: 20%;
+margin-right: auto;
+margin-left: auto
+}
+
+ .message .intro{
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-right: auto;
+  margin-left: auto; 
+  font-size: 2em;
+  position: absolute;
+  bottom: 25%;
+  text-align: center;
+  left: 20%;
+  
+}
+
+.message .text{
+  position: absolute;
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  bottom: 15%;
+}
+.result{
+  position: absolute;
+  color:  hsl(25, 97%, 53%);
+  border: 1px hsl(213, 20%, 22%)solid ;
+  background-color: hsl(213, 20%, 22%);
+  border-radius: 25px;
+  text-align: center;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  top: 45%;
+  left: 3.6em;
+}
+
+.message  .again{
+  width: 40%;
+  bottom: 5%;
+  left: 10%;
+  text-transform: capitalize;
+  font-size: 1.1em;
+}
+
+.answer{
+  padding: 5px;
+}
+/*desktop*/
+@media  (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      
+     width: 100%;
+
+
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+    .rating{width: 370px;}
+    input{bottom: 10%;}
+    ul{left: -01em;
+   } li {
+
+    padding-right: 10px;
+   }
+   .message{width: 370px;}
+   .message .intro {
+    left: 25%;
+   }
+  }
+
+
+
+
+  /*tablet*/
+  @media  (min-width: 768px) and (max-width: 991px) {
+    .tr3{width: 199%;}
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+
+        
+        width: 80%;
+    }
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+    .rating{width: 320px;}
+    input{bottom: 10%;}
+    ul{left: -2.8em;
+    padding-right: 8px;}
+    .message{width: 370px;}
+    .message .intro {
+      left: 25%;
+     }
+  }
+
+
+
+
+  /*mobile*/
+  @media  (max-width: 767px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+      
+       width: 50%;
+    }
+    .col-sm-1 {
+      width: 8.33%;
+    }
+    .col-sm-2 {
+      width: 16.66%;
+    }
+    .col-sm-3 {
+      width: 25%;
+    }
+    .col-sm-4 {
+      width: 33.33%;
+    }
+    .col-sm-5 {
+      width: 41.66%;
+    }
+    .col-sm-6 {
+      width: 50%;
+    }
+    .col-sm-7 {
+      width: 58.33%;
+    }
+    .col-sm-8 {
+      width: 66.66%;
+    }
+    .col-sm-9 {
+      width: 74.99%;
+    }
+    .col-sm-10 {
+      width: 83.33%;
+    }
+    .col-sm-11 {
+      width: 91.66%;
+    }
+    .col-sm-12 {width: 100%;
+    }
+  .rating{width:300px;
+    }
+    input{
+      bottom: 10%;
+      width:80%;
+    }
+  li .num{
+    width: 30px;
+    height: 30px;
+    
+    
+  }
+  ul{
+    left: -14px;
+    top: 35%;
+    padding-right: 10px;
+  } 
+  .message{width: 300px;}
+  .result{
+    width: 70%;
+  }
+  .message .text{
+    bottom: 10%;
+  }
+  .pic{left:10% ;}
+  .message .again{
+    
+    bottom: 1%;
+  }
+}
